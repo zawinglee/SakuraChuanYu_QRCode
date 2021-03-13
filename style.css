@@ -19,7 +19,7 @@ body{
 }
 
 #userName{
-    color: #bbb;
+    color: #000000;
     font-size: 1rem;
     font-weight: 600;
     line-height: 1.25;
@@ -28,6 +28,20 @@ body{
     width: 100%;
     text-align: center;
     text-decoration: none;
+}
+
+#footer{
+    color: #bbb;
+    font-size: 0.8rem;
+    font-weight: 600;
+    line-height: 1.25;
+    display: block;
+    font-family: var(--font);
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    position: fixed;
+    bottom: 0;
 }
 
 #links{
